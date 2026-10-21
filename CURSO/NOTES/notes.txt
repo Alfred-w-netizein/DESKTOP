@@ -1,0 +1,45 @@
+o sinal de = no js na verdade significa "recebe"
+    exemplo--> vaga1 = carro1
+
+para criar variaveis usa se "var" ou "let"
+para delimitar a variavel ou no caso o nome dela se usa aspas simples ou compostas e crase
+
+var mes = "agosto"
+var dia = '11'
+
+o atributo "typeo" classifica se a sua variavel é string ou number ou boleana null undefinid e etc
+
+o sinal de + serve para concatenação 
+exemplo: var nome = windou.prompt("diga seu nome")
+        window.alert("prazer em te conhecer " + nome + "!")
+            isso vai adicionar o nome da pessoa na frase 
+
+se eu fazer uma soma usando --> var soma = n1 + n2
+não vai dar certo oq i js funcinona de um jeito interessante. nesse exemplo que eu dei o sinal de + que serve tanto para CONCATENAÇÃO quanto para ADIÇÃO a linguagem vai levar em conta o que tem antes e depois dele pra saber o uque ele é , se tiver STRING + STRING logo o sinal é uma concatenação da mesma forma se tiver NUMBER + NUMBER o sinal é uma adição
+    mesmo assim há situations em que not dá pra colocar um elemento number antes então tem que ser feitta uma conversão
+        para conversão:
+        Number.parseInt --> para numeros inteiros
+        Number.parseFloat --> para numeros com virgula ( nesse caso ponto)
+        ou só Number
+            var n1 = Number(window.prompt('Digite um número: ')) // String
+            var n2 = Number(window.prompt('Digite outro número: ')) // String
+            var sn1 = n1 + n2
+            window.alert('A soma dos valores é ' + sn1) // Concatenação
+            // (number + number) para adição
+            // (string + string) para concatenação
+
+de number pra string no exemlo aciam era só colocar assim -->  window.alert('A soma dos valores é ' + string( sn1))
+
+// Formatando Strings
+
+var s = 'JavaScript'
+
+'Eu estou aprendendo s'
+// não faz interpolação
+
+'Eu estou aprendendo' + s
+// usa concatenação
+
+`Eu estou aprendendo ${s}`
+// usa template stringk
+as vezes é melhor usar o placeholder --> ${aqui vai a variavel}
