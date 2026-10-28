@@ -43,3 +43,31 @@ var s = 'JavaScript'
 `Eu estou aprendendo ${s}`
 // usa template stringk
 as vezes é melhor usar o placeholder --> ${aqui vai a variavel}
+
+
+OPERADORES DO js
+vou aprender deses operadores por emquanto
+
+aritmeticos
+atribuição
+relacionais
+logicos
+ternario
+
+aritmeticos --> é os que serve pra fazer conta 
+relacionais são --> maior > mnor< menor ou igual<= maior ou igual>= diferente!= e igual== identico ===
+
+logicos --> são esses caras
+ !negação
+    quero umam caneta que não seja azul, pode me entrgar qualquer cor de caneta que não seja azul
+ &&conjunção
+    quero uma caneta azuk e uma vermelha , só aceito se for as duas
+ || disjunção
+    quero uma caneta azul OU uma vermelha, só não pode ficar sem dar nada ou uma caneta de cor que não seja azul ou vermalha
+
+    PRIMEIRO O ! DEPOIS O && E DEPOIS O ||
+
+    ternario --> esses dois juntos ?: 
+        teste?true:false
+        teste logico ? oq acontece se der verdadeiro : oq acontece se for falso
+
